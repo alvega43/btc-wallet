@@ -27,7 +27,7 @@ function getBrowserPaths(browser) {
     appNodeModules: rootResolve('node_modules'),
     appWebpackCache: rootResolve('node_modules/.cache'),
     appTsBuildInfoFile: rootResolve('node_modules/.cache/tsconfig.tsbuildinfo')
-    // publicUrlOrPath,
+    publicUrlOrPath,
   };
   return ret;
 }
