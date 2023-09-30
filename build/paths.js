@@ -20,7 +20,7 @@ function getBrowserPaths(browser) {
     appHtml: rootResolve('public/index.html'),
     appPackageJson: rootResolve('package.json'),
     appSrc: rootResolve('src'),
-    appTsConfig: rootResolve('tsconfig.json'),
+    //appTsConfig: rootResolve('tsconfig.json'),
     appJsConfig: rootResolve('jsconfig.json'),
     yarnLockFile: rootResolve('yarn.lock'),
     proxySetup: rootResolve('src/setupProxy.js'),
