@@ -7,7 +7,7 @@ const buildPath = 'dist';
 function getBrowserPaths(browser) {
   let ret = {
     root: appRoot,
-  //  src: rootResolve('src'),
+    src: rootResolve('src'),
     indexHtml: rootResolve('build/_raw/index.html'),
     notificationHtml: rootResolve('build/_raw/notification.html'),
     backgroundHtml: rootResolve('src/background/background.html'),
