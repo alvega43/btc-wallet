@@ -12,7 +12,7 @@ function getBrowserPaths(browser) {
     notificationHtml: rootResolve('build/_raw/notification.html'),
     backgroundHtml: rootResolve('src/background/background.html'),
     dist: rootResolve('dist/' + browser),
-    rootResolve,
+    //rootResolve,
     dotenv: rootResolve('.env'),
     appPath: rootResolve('.'),
     appBuild: rootResolve(buildPath),
