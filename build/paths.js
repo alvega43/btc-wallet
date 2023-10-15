@@ -16,7 +16,7 @@ function getBrowserPaths(browser) {
     dotenv: rootResolve('.env'),
     appPath: rootResolve('.'),
     appBuild: rootResolve(buildPath),
-    appPublic: rootResolve('public'),
+    //appPublic: rootResolve('public'),
     appHtml: rootResolve('public/index.html'),
     appPackageJson: rootResolve('package.json'),
     appSrc: rootResolve('src'),
