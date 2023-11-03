@@ -13,7 +13,7 @@ function getBrowserPaths(browser) {
     backgroundHtml: rootResolve('src/background/background.html'),
     dist: rootResolve('dist/' + browser),
     rootResolve,
-    dotenv: rootResolve('.env'),
+   // dotenv: rootResolve('.env'),
     appPath: rootResolve('.'),
     appBuild: rootResolve(buildPath),
     appPublic: rootResolve('public'),
