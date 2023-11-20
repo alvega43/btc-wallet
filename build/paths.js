@@ -18,7 +18,7 @@ function getBrowserPaths(browser) {
     appBuild: rootResolve(buildPath),
     appPublic: rootResolve('public'),
     appHtml: rootResolve('public/index.html'),
-    //appPackageJson: rootResolve('package.json'),
+    appPackageJson: rootResolve('package.json'),
     appSrc: rootResolve('src'),
     appTsConfig: rootResolve('tsconfig.json'),
     appJsConfig: rootResolve('jsconfig.json'),
